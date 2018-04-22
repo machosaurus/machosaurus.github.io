@@ -103,6 +103,12 @@ nav a {
 	background-size:cover;
 	width:100vw;
  height:100vh;
+ overflow:scroll;
+}
+
+#test{
+    overflow:scroll;
+
 }
 #firstword {
 margin-top: -50px;
@@ -126,9 +132,11 @@ font-size: 5vw;
 
 
 #third{
+
 	background-position:bottom;
 	background-image: url("pic5.jpg");
   //-webkit-filter: grayscale(100%);
+
 	background-attachment: scroll;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -231,7 +239,7 @@ background-color: rgba(4, 5, 4,0.4);
 }
 
   #bio p{
-	font-size:2.5vh;
+	font-size:2.3vh;
   }
 
 #space{
@@ -245,7 +253,8 @@ background-color: rgba(4, 5, 4,0.4);
 	float:right;
   }
 
-  .tab { text-indent:60px; }
+  .tab { text-indent:60px;
+  }
 
 #speak{
   font-size: 9vh;
@@ -293,4 +302,17 @@ background-color: rgba(4, 5, 4,0.4);
 #purple{
   color: rgba(205, 125, 242, 1);
   text-align: center;
+}
+
+a:link#cv,
+a:visited#cv{
+    //color: #A9F5E1;
+    color: #83c1b1;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover#cv{
+    color: #BCA9F5;
+    background-color: transparent;
+    text-decoration: underline;
 }
