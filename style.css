@@ -79,7 +79,8 @@ nav{
 
 nav a{
   text-decoration: white;
-	color:#444;
+	//color:#444;
+  color: rgb(21, 81, 81,1);
   //display: inline;
   padding-right: .5vw;
   padding-left: 1vw;
@@ -116,10 +117,10 @@ h2{
 }
 
 #second p{
-  text-align:right;
+  text-align:left;
   font-size:4.5vh;
-  //padding-left:50px;
-  padding-right:50px;  
+  padding-left:52vw;
+  //padding-right:50px;  
 }
 
 #third{
@@ -303,7 +304,7 @@ h2{
 
 a:link#cv,
 a:visited#cv{
-  color:rgba(51, 204, 204,.9);
+  color: rgba(51, 204, 204,.9);
   background-color: transparent;
   text-decoration: none;
 }
