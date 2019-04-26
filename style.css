@@ -116,10 +116,10 @@ h2{
 }
 
 #second p{
-  text-align:left;
+  text-align:right;
   font-size:4.5vh;
   //padding-left:50px;
-  padding-left:50px;  
+  padding-right:50px;  
 }
 
 #third{
@@ -183,9 +183,9 @@ h2{
 #designWords{
   text-align:center;
   font-size: 3vw;
-  //padding-top:35vh;
+  padding-top:35vh;
   padding-right: 3vw;
-  padding-top: 80vh;
+  //padding-top: 80vh;
 }
 
 #vox{
@@ -241,10 +241,12 @@ h2{
   //margin-top: 20%;
 }
 
-#box{ //skills box
+#box{ /*Skills shading*/
+
 	background-color:rgba(4, 5, 4,0.25);
 	width:50vw;
 	height:100vh;
+  float:left;
 }
 
 .tab { 
@@ -290,7 +292,8 @@ h2{
 
 .jobTitle {
   text-shadow: .8px .8px 1px #000;
-  color: rgba(193, 129, 23,1);
+  //color: rgba(193, 129, 23,1);
+  color:rgba(51, 204, 204,.9);
 }
 
 
