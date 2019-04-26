@@ -292,7 +292,6 @@ h2{
 
 .jobTitle {
   text-shadow: .8px .8px 1px #000;
-  //color: rgba(193, 129, 23,1);
   color:rgba(51, 204, 204,.9);
 }
 
@@ -304,8 +303,7 @@ h2{
 
 a:link#cv,
 a:visited#cv{
-  //color: #A9F5E1;
-  color: #83c1b1;
+  color:rgba(51, 204, 204,.9);
   background-color: transparent;
   text-decoration: none;
 }
