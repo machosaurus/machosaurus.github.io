@@ -55,7 +55,7 @@ body {
   padding: none;
   font-family: 'Playfair Display', serif;
   font-weight: bold;
-  color:white; 
+  color:white;
   font-size: 18px;
   line-height: 1.5;
   max-height: 100%
@@ -87,7 +87,7 @@ nav a{
 }
 
 #top{
-  background-image: url("mountain.jpg");
+  background-image: url("images/welcome.jpg");
   width:100vw;
   height:100vh;
   background-size: cover;
@@ -97,7 +97,7 @@ nav a{
 }
 
 #second{
-	background-image:url("b7.jpg");
+	background-image:url("images/lake.jpg");
 	background-position:center;
   background-attachment: fixed;
 	background-size:cover;
@@ -120,12 +120,12 @@ h2{
   text-align:left;
   font-size:4.5vh;
   padding-left:52vw;
-  //padding-right:50px;  
+  //padding-right:50px;
 }
 
 #third{
 	background-position:bottom;
-	background-image: url("pic5.jpg");
+	background-image: url("images/aerialView.jpg");
   //-webkit-filter: grayscale(100%);
 	background-attachment: scroll;
 	background-repeat: no-repeat;
@@ -172,8 +172,7 @@ h2{
 	width:100vw;
   text-shadow: .8px .8px 1px #000;
 	height:100vh;
-  //background-image: url("b4.jpg");
-	background:url("b4.jpg");
+	background:url("images/city.jpg");
 	background-size:cover;
 	background-position:right;
   background-attachment: fixed;
@@ -208,7 +207,7 @@ h2{
   //padding-bottom: 5vh;
   background-position: center;
   //-webkit-filter: grayscale(50%);
-  background-image: url("5.jpg");
+  background-image: url("images/streetView.jpg");
 }
 
 
@@ -250,7 +249,7 @@ h2{
   float:left;
 }
 
-.tab { 
+.tab {
   text-indent:60px;
 }
 
