@@ -83,7 +83,7 @@ nav{
 
 nav a{
   text-decoration: white;
-	//color:#444;
+  //color:#444;
   color: rgb(21, 81, 81,1);
   //display: inline;
   padding-right: .5vw;
@@ -103,10 +103,10 @@ nav a{
 #second{
   background-image:url("images/rainDropTop.jpg");
   -webkit-filter: sepia(10%);
-	background-position:center;
+  background-position:center;
   background-attachment: fixed;
-	background-size:cover;
-	width:100vw;
+  background-size:cover;
+  width:100vw;
   height:100vh;
 }
 
