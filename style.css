@@ -11,7 +11,8 @@ h1{
   margin-bottom: 10px;
   height:inherit;
   //border-color: black;
-  border-bottom: solid 5px  rgba(61,64,66,0.8);
+  border-bottom: solid 5px
+  rgba(61,64,66,0.8);
   border-bottom-width: thin;
 }
 
@@ -58,10 +59,13 @@ body {
   color:white;
   font-size: 18px;
   line-height: 1.5;
-  max-height: 100%
-  text-align: center;
+  height: 100%;
+  text-align: left;
   width:100vw;
-  height:100vh;
+  background-image: url("images/oceana.jpg");
+  background-size: cover;
+  background-position:bottom;
+  background-attachment: fixed;
 }
 
 nav{
@@ -97,7 +101,8 @@ nav a{
 }
 
 #second{
-	background-image:url("images/lake.jpg");
+  background-image:url("images/rainDropTop.jpg");
+  -webkit-filter: sepia(10%);
 	background-position:center;
   background-attachment: fixed;
 	background-size:cover;
@@ -119,6 +124,7 @@ h2{
 #second p{
   text-align:left;
   font-size:4.5vh;
+  //color: rgba(6, 6, 6, .9);
   padding-left:52vw;
   //padding-right:50px;
 }
@@ -139,7 +145,8 @@ h2{
 	width:100vw;
   //height:22vh;
 	height: 20vh;
-  background-color:rgba(6, 17, 14,.96);
+  background-color:rgba(18, 21, 23,.96);
+  //background-color:rgba(6, 17, 14,.96);
 }
 
 .clear{
@@ -172,7 +179,7 @@ h2{
 	width:100vw;
   text-shadow: .8px .8px 1px #000;
 	height:100vh;
-	background:url("images/city.jpg");
+  background:url("images/underground.jpg");
 	background-size:cover;
 	background-position:right;
   background-attachment: fixed;
@@ -199,15 +206,15 @@ h2{
 
 #me{
   margin-top:-9vh;
-	background-repeat: no-repeat;
-	height:100vh;
+	background-repeat: repeat;
+	min-height: 100vh;
 	width:100vw;
 	background-size: cover;
   background-attachment: fixed;
-  //padding-bottom: 5vh;
   background-position: center;
-  //-webkit-filter: grayscale(50%);
-  background-image: url("images/streetView.jpg");
+  -webkit-filter: grayscale(80%);
+  background-image: url("images/oceana.jpg");
+  -webkit-filter: opacity(95%);
 }
 
 
@@ -230,11 +237,14 @@ h2{
   padding-right: 3vw;
   padding-top:1vw;
   padding-bottom:1vw;
-  background-color: rgba(4, 5, 4,0.4);
+  background-color: rgba(4, 5, 4,0.5);
 }
 
 #bio p{
-	font-size:2.3vh;
+	font-size:2.2vh;
+  color: rgb(233, 235, 235);
+  //color: rgba(255, 0, 0, 0.5);
+  text-align: left;
 }
 
 #space{
@@ -242,7 +252,6 @@ h2{
 }
 
 #box{ /*Skills shading*/
-
 	background-color:rgba(4, 5, 4,0.25);
 	width:50vw;
 	height:100vh;
@@ -261,6 +270,7 @@ h2{
 }
 
 #english{
+  color: rgba(209,227,226,1);
   font-size: 7vh;
   margin-top: -14vh;
   text-align: left;
