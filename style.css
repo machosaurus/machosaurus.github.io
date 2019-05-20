@@ -421,11 +421,15 @@ nav a{
 
 #second{
 <<<<<<< HEAD
+<<<<<<< HEAD
 	background-image:url("images/lake.jpg");
 =======
   background-image:url("images/rainDropTop.jpg");
   -webkit-filter: sepia(10%);
 >>>>>>> parent of 662af2f... changes to background
+=======
+	background-image:url("images/lake.jpg");
+>>>>>>> parent of ba182c4... changes to background images
 	background-position:center;
   background-attachment: fixed;
 	background-size:cover;
