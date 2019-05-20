@@ -420,7 +420,12 @@ nav a{
 }
 
 #second{
+<<<<<<< HEAD
 	background-image:url("images/lake.jpg");
+=======
+  background-image:url("images/rainDropTop.jpg");
+  -webkit-filter: sepia(10%);
+>>>>>>> parent of 662af2f... changes to background
 	background-position:center;
   background-attachment: fixed;
 	background-size:cover;
