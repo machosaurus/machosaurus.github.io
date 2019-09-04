@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  h1 Parse XML using NodeJS
+  h3 Books Information
+  table
+      tr
+        th Title
+        th Category
+        th Author
+        th Year
+        th Price
+        th Laguage
+      each book, index in books
+       tr
+        td #{book['title'][0]['_']}
+        td #{book['category'][0]}
+        td #{book['author'][0]}
+        td #{book['year'][0]}
+        td #{book['price'][0]}
+        td #{book['title'][0]['$']['lang']}

@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+
+	html,body {
+		padding: 0;
+		margin:0;
+		height 100vh;
+		width 100vw;
+	}
+
+	h1 {
+		font-size: 60px;
+		letter-spacing: 0px;
+		text-align:center;
+		margin-top: 3vh;
+		margin-bottom: 0vh;
+		color: rgba(20,36,24,.9);
+	}
+
+	h2 {
+		align-content:center;
+		font-size: 30px;
+		color: rgba(20,36,24,.7);
+		font-style: italic;
+	}
+
+	#sh2 {
+		margin-top: 0;
+		color: rgba(230, 233, 237,.6);
+	}
+
+	h3 {
+	      margin-bottom: 0;
+	      float:right;
+		font-style: italic;
+	}
+
+	#p2 {
+		background-image: url("images/meOldGlory.jpg");
+	}
+
+	#p2 li {
+		color:white;
+	}
+
+	#p2 ul {
+		list-style-type: none;
+		float: center;
+		margin-left: -40px;
+	}
+
+
+	p {
+		font-size:2.2vh;
+		color: rgba(61,64,66,1);
+		text-shadow: 1px 1px 1px #FFF;
+	}
+
+	#contact {
+		padding-right: 3vw;
+		float:right;
+		list-style:none;
+		padding-top:0vh;
+		color: rgba(229,234,241,1);
+	}
+
+	#contact li {
+		text-align: right;
+	}
+
+	#div {
+		margin-right: 10vw;
+		margin-left: 10vw;
+		padding-bottom: 20vh;
+		background-color: rgba(255,255,255,.5);
+	}
+
+	#div2 {
+		margin-right: 10vw;
+		margin-left: 10vw;
+		margin-top: 10vh;
+		margin-bottom: 10vh;
+		background-color: rgba(255,255,255,.2);
+	}
+
+	body {
+		text-align: center;
+		font-family: 'Playfair Display', serif;
+		font-weight: bold;
+		color:black;
+		font-size: 18px;
+		line-height: 1.5;
+		height: 100%;
+		width:100vw;
+		background-image: url("images/ourSweetHome.jpg");
+		-webkit-filter: grayscale(30%);
+		background-size: cover;
+		background-position:bottom;
+		background-attachment: fixed;
+	}
+
+
+	a {
+		text-decoration: white;
+		color: rgb(21, 81, 81,1);
+		padding-right: .5vw;
+		padding-left: 1vw;
+	}
+
+	input {
+		font-family:Arial;
+		color: rgb(21, 81, 81,1);
+		font-size:17px;
+		border-radius:5px;
+		margin-left: 10px;
+		padding-left: 5px;
+	}
+
+	.link {
+		border-radius:0px;
+		border:1px solid #18ab39;
+		display:inline-block;
+		cursor:pointer;
+		color: white;
+		font-family:Arial;
+		margin-top: 10px;
+		padding:3px 7px;
+		text-decoration:none;
+	}
+
+	.button {
+		background-color:#44c767;
+		-moz-border-radius:20px;
+		-webkit-border-radius:20px;
+		border-radius:20px;
+		border:1px solid #18ab29;
+		display:inline-block;
+		cursor:pointer;
+		color:#ffffff;
+		font-family:Arial;
+		font-size:17px;
+		padding:10px 28px;
+		text-decoration:none;
+		text-shadow:0px 1px 0px #2f6627;
+	}
+
+	.button:hover {
+		background-color:rgba(92, 191, 42,.9);
+	}
+
+	.button:active {
+		position:relative;
+		top:1px;
+	}
+
+	a:link,
+	a:visited {
+		font-family:Arial;
+		color: rgba(20,36,24,.9);
+		background-color: transparent;
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: #42ad42;
+		background-color: transparent;
+	}
+
+/* EOF  Thank you for coming, That's All Folks!   M.Tabaru 2019 */
