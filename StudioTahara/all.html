@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+
+
+	<head>
+
+		<meta charset="UTF-8"/>
+		<title> Herd Database</title>
+		<link href="style/style.css" rel="stylesheet" media="screen">
+		<a href="/default.asp">HTML tutorial</a>
+
+	</head>
+
+
+	<body id="p2">
+
+		<div id="div2">
+
+			<h1>Our Family</h1>
+			<h2 id="sh2">*psstt*.....please refresh page to load herd.</h2>
+			<p class="link"><a href="index.html">Place an Order</a></p>
+			<div id="container"></div>
+
+		</div>
+
+	<script>
+		async function getData(){ //gets database from server.
+			console.log("WE ARE IN GET DATA");
+			const response =await fetch('/yak-shop/load').
+			then((response) => response.json())
+			.then(function(data){
+				//const data = await response.json();
+				const Herd = data.herd;
+				console.log("DATA: ", data);
+				console.log("Herd: ", Herd);
+				for(Yak of Herd){
+					//console.log("YakKIE: ", Yak);
+					const yak = document.createElement('ul');
+					const name = document.createElement('li');
+					const age = document.createElement('li');
+					const sex = document.createElement('li');
+					//const date = document.createElement('div');
+					name.textContent = `Name: ${Yak.name} 🐮`;
+					age.textContent = `Age: ${Yak.age}`; //grab data from item variable
+					sex.textContent = `Sex: ${Yak.sex}`;
+					// const dateString = new Date(item.timestamp).toLocaleString(); //taking timestamp and convertng it to string to local timezone
+					//date.textContent = dateString;
+					yak.append(name ,age , sex);
+					var div = document.getElementById("container");
+
+					div.append(yak);
+				}
+			}).catch(function (err) {
+			console.log(err)
+			});
+
+			//const data = await response.json();
+
+		}
+
+		getData();
+	</script>
+
+		<ul id="contact">
+			<h3>"happy yaks, happy life."</h3>
+		</ul>
+
+
+	</body>
+
+
+</html>
+<!-- EOF  Thank you for coming, That's All Folks!   M.Tabaru 2019--->
